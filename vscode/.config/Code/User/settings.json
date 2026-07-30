@@ -1,0 +1,180 @@
+{
+  "oxc.enable": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "tailwindCSS.lint.suggestCanonicalClasses": "warning",
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": false,
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 1.6,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.env.windows": {},
+  "editor.inlayHints.fontFamily": "\"editor.fontFamily\": \"'JetBrains Mono', 'monospace'\"",
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.colorDecorators": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "symbols.hidesExplorerArrows": true,
+  "symbols.folders.associations": {
+    "data": "folder-yellow",
+    "controllers": "folder-yellow-outline",
+    ".github": "folder-gray-outline",
+    ".vscode": "folder-blue",
+    "node_modules": "folder-green",
+    "styles": "folder-sky-code",
+    "css": "folder-sky-code",
+    "ui": "folder-blue-outline",
+    "pages": "folder-purple-code",
+    "__tests__": "folder-orange-code",
+    "cypress": "folder-cypress",
+    "icons": "folder-images",
+    "mockups": "folder-images",
+    "views": "folder-purple",
+    "schemas": "folder-gray-code",
+    "stores": "folder-pink"
+  },
+  "symbols.files.associations": {
+    "*.css": "brackets-sky",
+    "*.js.snap": "jest",
+    "*.cy.js": "cypress",
+    ".oxfmtrc.json": "oxlint"
+  },
+  "workbench.editor.showTabs": "multiple",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.tree.indent": 16,
+  "explorer.decorations.badges": true,
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "chat.commandCenter.enabled": false,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "totalTypeScript.hiddenTips": [
+    "typing-function-parameters",
+    "array-type",
+    "basic-types",
+    "function-return-type",
+    "ts-object-type",
+    "any-type",
+    "union-type",
+    "literal-type",
+    "optional-object-property",
+    "type-alias-declaration",
+    "null-keyword",
+    "interface-declaration",
+    "variable-type-annotation",
+    "passing-generics-to-types",
+    "undefined-keyword",
+    "non-null-expression",
+    "as-assertion",
+    "keyof",
+    "typeof",
+    "readonly-utility-type",
+    "record-utility-type",
+    "in-operator-narrowing",
+    "readonly-object-property",
+    "type-alias-with-generics",
+    "pick-utility-type",
+    "mapped-type",
+    "generic-slots-in-functions",
+    "never-keyword",
+    "tuple-type",
+    "returntype-utility-type",
+    "type-predicate",
+    "omit-utility-type"
+  ],
+  "js/ts.referencesCodeLens.enabled": true,
+  "extensions.ignoreRecommendations": true,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editorAssociations": {
+    "*.vsg": "default"
+  },
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.suggest.autoImports": true,
+  "js/ts.suggest.includeCompletionsForImportStatements": true,
+  "js-auto-backticks.enableRevert": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "liveServer.settings.port": 3333,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.menuBarVisibility": "toggle",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "editor.fontSize": 11.5,
+  "terminal.integrated.suggest.enabled": false,
+  "files.associations": {
+    "*.css": "css",
+    "*.ejs": "html"
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "html.format.unformatted": "wbr,%",
+  "html.format.templating": true,
+  "[html]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true,
+    "https://ui.shadcn.com/schema.json": true,
+    "https://openapi.vercel.sh/vercel.json": true
+  },
+  "workbench.iconTheme": "symbols",
+  "errorLens.messageEnabled": false,
+  "git.openRepositoryInParentFolders": "always",
+  "chat.disableAIFeatures": true,
+  "go.toolsManagement.autoUpdate": true,
+  "js/ts.experimental.useTsgo": true
+}
