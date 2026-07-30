@@ -1,0 +1,183 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "prettier": {
+    "allowed": false,
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.vscode"
+  ],
+  "formatter": "language_server",
+  "format_on_save": "on",
+  "project_panel": {
+    "folder_icons": true,
+    "auto_fold_dirs": false,
+    "hide_root": false,
+    "dock": "left",
+  },
+  "disable_ai": true,
+  "buffer_line_height": {
+    "custom": 1.6,
+  },
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 11.5,
+  "buffer_font_features": {
+    "calt": false
+  },
+  "ui_font_size": 16,
+  "theme": "One Dark",
+  "terminal": {
+    "cursor_shape": "bar"
+  },
+  "experimental.theme_overrides": {
+    "background": "#0d1117",
+    "editor.background": "#0d1117",
+    "editor.gutter.background": "#0d1117",
+    "surface.background": "#0f1319",
+    "elevated_surface.background": "#11151c",
+    "border": "#1c2128",
+    "border.variant": "#1c2128",
+    "tab_bar.background": "#0d1117",
+    "tab.inactive_background": "#0d1117",
+    "tab.active_background": "#131720",
+    "status_bar.background": "#0d1117",
+    "title_bar.background": "#0d1117",
+    "panel.background": "#0d1117",
+    "scrollbar.track.background": "#0d1117",
+    "terminal.background": "#0a0d12",
+    "terminal.foreground": "#c9d1d9",
+    "terminal.bright_foreground": "#e6edf3",
+    "terminal.dim_foreground": "#6e7681",
+    "syntax": {
+      "variable.parameter": {
+        "font_style": "italic",
+      }
+    }
+  },
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      {
+        "token_type": "parameter",
+        "style": [
+          "variable.paramter"
+        ]
+      }
+    ]
+  },
+  "lsp": {
+    "oxlint": {
+      "binary": {
+        "path": "/home/carlos/.local/share/fnm/aliases/default/bin/oxlint",
+        "arguments": [
+          "--lsp"
+        ]
+      },
+      "initialization_options": {
+        "settings": {
+          "configPath": null,
+          "run": "onType",
+          "disableNestedConfig": false,
+          "fixKind": "safe_fix",
+          "unusedDisableDirectives": "deny",
+        },
+      },
+    },
+    "oxfmt": {
+      "binary": {
+        "path": "/home/carlos/.local/share/fnm/aliases/default/bin/oxfmt",
+        "arguments": [
+          "--lsp"
+        ]
+      },
+      "initialization_options": {
+        "settings": {
+          "fmt.configPath": null,
+          "run": "onSave",
+        },
+      },
+    },
+  },
+  "languages": {
+    "CSS": {
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt"
+          }
+        }
+      ]
+    },
+    "HTML": {
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt"
+          }
+        }
+      ]
+    },
+    "TypeScript": {
+      "semantic_tokens": "combined",
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt",
+          },
+        },
+      ],
+    },
+    "JavaScript": {
+      "semantic_tokens": "combined",
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt"
+          }
+        }
+      ]
+    },
+    "GraphQL": {
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt"
+          }
+        }
+      ]
+    },
+    "TSX": {
+      "semantic_tokens": "combined",
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt"
+          }
+        }
+      ]
+    },
+    "JSON": {
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "oxfmt"
+          }
+        }
+      ]
+    }
+  },
+}
