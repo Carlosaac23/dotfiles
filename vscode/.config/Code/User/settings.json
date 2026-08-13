@@ -2,9 +2,16 @@
   "oxc.enable": true,
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
   "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 11.5,
+  "editor.lineHeight": 1.6,
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.colorDecorators": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -15,25 +22,32 @@
       }
     ]
   },
-  "tailwindCSS.lint.suggestCanonicalClasses": "warning",
-  "editor.smoothScrolling": true,
-  "editor.linkedEditing": true,
-  "window.titleBarStyle": "custom",
-  "window.commandCenter": false,
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 11.5,
-  "editor.lineHeight": 1.6,
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.indent": 16,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.list.smoothScrolling": true,
+  "workbench.editorAssociations": {
+    "*.vsg": "default"
+  },
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.cursorStyle": "line",
-  "editor.inlayHints.fontFamily": "JetBrains Mono",
-  "editor.colorDecorators": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "security.workspace.trust.untrustedFiles": "prompt",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.suggest.enabled": false,
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
-  "editor.tabSize": 2,
+  "explorer.decorations.badges": true,
+  "security.workspace.trust.untrustedFiles": "prompt",
+  "extensions.ignoreRecommendations": true,
+  "tailwindCSS.lint.suggestCanonicalClasses": "warning",
   "symbols.hidesExplorerArrows": true,
   "symbols.folders.associations": {
     "data": "folder-yellow",
@@ -56,15 +70,9 @@
   "symbols.files.associations": {
     "*.css": "brackets-sky",
     "*.js.snap": "jest",
-    "*.cy.js": "cypress",
-    ".oxfmtrc.json": "oxlint"
+    "*.cy.js": "cypress"
   },
-  "workbench.editor.showTabs": "multiple",
-  "workbench.startupEditor": "none",
-  "workbench.tips.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.tree.indent": 16,
-  "explorer.decorations.badges": true,
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
@@ -103,23 +111,11 @@
     "omit-utility-type"
   ],
   "js/ts.referencesCodeLens.enabled": true,
-  "extensions.ignoreRecommendations": true,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.editorAssociations": {
-    "*.vsg": "default"
-  },
   "js/ts.updateImportsOnFileMove.enabled": "always",
   "js/ts.suggest.autoImports": true,
   "js/ts.suggest.includeCompletionsForImportStatements": true,
   "js-auto-backticks.enableRevert": true,
-  "workbench.list.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-  "liveServer.settings.port": 3333,
   "diffEditor.ignoreTrimWhitespace": false,
-  "window.menuBarVisibility": "toggle",
-  "github.copilot.nextEditSuggestions.enabled": false,
-  "terminal.integrated.suggest.enabled": false,
   "files.associations": {
     "*.ejs": "html"
   },
@@ -156,8 +152,8 @@
     "https://ui.shadcn.com/schema.json": true,
     "https://openapi.vercel.sh/vercel.json": true
   },
-  "workbench.iconTheme": "symbols",
   "errorLens.messageEnabled": false,
   "git.openRepositoryInParentFolders": "always",
-  "go.toolsManagement.autoUpdate": true
+  "go.toolsManagement.autoUpdate": true,
+  "chat.disableAIFeatures": true
 }
