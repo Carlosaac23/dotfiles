@@ -70,7 +70,6 @@
   "workbench.tree.indent": 16,
   "explorer.decorations.badges": true,
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
-  "chat.commandCenter.enabled": false,
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
   "totalTypeScript.hiddenTips": [
@@ -123,7 +122,6 @@
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "liveServer.settings.port": 3333,
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
   "diffEditor.ignoreTrimWhitespace": false,
   "window.menuBarVisibility": "toggle",
   "github.copilot.nextEditSuggestions.enabled": false,
@@ -139,22 +137,17 @@
   },
   "html.format.unformatted": "wbr,%",
   "html.format.templating": true,
-  "[html]": {
-    "editor.defaultFormatter": "oxc.oxc-vscode"
-  },
+  "go.formatTool": "goimports",
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "go.formatTool": "goimports",
   "[go]": {
-    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "golang.go"
   },
   "[go.mod]": {
-    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
     }
@@ -174,7 +167,9 @@
   "workbench.iconTheme": "symbols",
   "errorLens.messageEnabled": false,
   "git.openRepositoryInParentFolders": "always",
-  "chat.disableAIFeatures": true,
   "go.toolsManagement.autoUpdate": true,
-  "js/ts.experimental.useTsgo": true
+  "js/ts.experimental.useTsgo": true,
+  "css.enabledLanguages": ["html"],
+  "redhat.telemetry.enabled": true,
+  "workbench.experimental.modernUI": true
 }

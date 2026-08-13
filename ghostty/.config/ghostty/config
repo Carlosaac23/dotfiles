@@ -18,12 +18,13 @@ window-decoration = auto
 window-padding-x = 5
 window-padding-y = 5
 window-padding-balance = true
+gtk-titlebar = false
 
 # keybindings
 keybind = ctrl+w=close_surface
-keybind = ctrl+t=new_split:right
-keybind = ctrl+right=goto_split:right
-keybind = ctrl+left=goto_split:left
+keybind = ctrl+t=new_tab
+keybind = ctrl+right=next_tab
+keybind = ctrl+left=previous_tab
 
 # splitting
 keybind = ctrl+space>\=new_split:right
