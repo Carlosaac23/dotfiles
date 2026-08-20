@@ -4,7 +4,7 @@ theme = GitHub Dark
 cursor-color = 58a6ff
 cursor-text = 0a0d12
 
-font-family = Geist Mono Regular
+font-family = JetBrains Mono
 font-size = 10
 font-feature = -liga,-calt,-dlig
 cursor-style = bar
