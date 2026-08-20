@@ -140,9 +140,6 @@ alias emote='flatpak run com.tomjwatson.Emote'
 
 export PATH="$HOME/.local/bin:$PATH"
 
-# nub
-export PATH="$HOME/.nub/bin:$PATH"
-
 # starship
 eval "$(starship init bash)"
 

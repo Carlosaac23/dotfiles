@@ -5,10 +5,10 @@
   "editor.cursorBlinking": "smooth",
   "editor.smoothScrolling": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Geist Mono",
   "editor.fontSize": 11.5,
   "editor.lineHeight": 1.6,
-  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
   "editor.colorDecorators": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.tabSize": 2,
@@ -33,7 +33,7 @@
   "workbench.editorAssociations": {
     "*.vsg": "default"
   },
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "Geist Mono",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.smoothScrolling": true,
@@ -155,5 +155,6 @@
   "errorLens.messageEnabled": false,
   "git.openRepositoryInParentFolders": "always",
   "go.toolsManagement.autoUpdate": true,
-  "chat.disableAIFeatures": true
+  "github.copilot.enable": {},
+  "github.copilot.nextEditSuggestions.eagerness": "medium"
 }
