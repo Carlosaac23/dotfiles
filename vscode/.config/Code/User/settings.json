@@ -2,6 +2,7 @@
   "oxc.enable": true,
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "editor.cursorBlinking": "smooth",
   "editor.smoothScrolling": true,
   "editor.linkedEditing": true,
@@ -66,6 +67,7 @@
     "views": "folder-purple",
     "schemas": "folder-gray-code",
     "stores": "folder-pink",
+    "bruno": "folder-bruno",
   },
   "symbols.files.associations": {
     "*.css": "brackets-sky",
