@@ -141,7 +141,9 @@ alias emote='flatpak run com.tomjwatson.Emote'
 export PATH="$HOME/.local/bin:$PATH"
 
 # starship
-eval "$(starship init bash)"
+if [[ "$TERM_PROGRAM" != "WarpTerminal" ]]; then
+    eval "$(starship init bash)"
+fi
 
 # pnpm
 export PNPM_HOME="/home/carlos/.local/share/pnpm"
