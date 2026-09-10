@@ -136,7 +136,6 @@ alias apti='sudo apt install'
 alias aptrm='sudo apt remove'
 alias apta='sudo apt autoremove'
 alias vs='code .'
-alias emote='flatpak run com.tomjwatson.Emote'
 
 export PATH="$HOME/.local/bin:$PATH"
 
