@@ -29,7 +29,6 @@
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 16,
   "workbench.editor.empty.hint": "hidden",
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.editorAssociations": {
     "*.vsg": "default",
@@ -142,6 +141,9 @@
       "source.organizeImports": "explicit",
     },
   },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+  },
   "json.schemaDownload.trustedDomains": {
     "https://schemastore.azurewebsites.net/": true,
     "https://raw.githubusercontent.com/microsoft/vscode/": true,
@@ -159,4 +161,7 @@
   "go.toolsManagement.autoUpdate": true,
   "github.copilot.enable": {},
   "github.copilot.nextEditSuggestions.eagerness": "medium",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.compact": true,
+  "workbench.sideBar.location": "right",
 }
