@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "ui_font_family": "SF Pro Display",
+  "agent_servers": {
+    "opencode": {
+      "default_config_options": {
+        "mode": "plan",
+        "model": "opencode/nemotron-3-ultra-free"
+      },
+      "type": "registry",
+    }
+  },
+  "icon_theme": "Zed (Default)",
   "prettier": {
     "allowed": false,
   },
@@ -20,19 +34,19 @@
     "folder_icons": true,
     "auto_fold_dirs": false,
     "hide_root": false,
-    "dock": "left",
+    "dock": "right",
   },
-  "disable_ai": true,
+  "disable_ai": false,
   "buffer_line_height": {
     "custom": 1.6,
   },
   "buffer_font_weight": 400.0,
-  "buffer_font_family": "JetBrains Mono",
-  "buffer_font_size": 11.5,
+  "buffer_font_family": "SF Mono",
+  "buffer_font_size": 12,
   "buffer_font_features": {
     "calt": false
   },
-  "ui_font_size": 16,
+  "ui_font_size": 16.0,
   "theme": "One Dark",
   "terminal": {
     "cursor_shape": "bar"
@@ -75,7 +89,7 @@
   "lsp": {
     "oxlint": {
       "binary": {
-        "path": "/home/carlos/.local/share/fnm/aliases/default/bin/oxlint",
+        "path": "/home/carlos/.local/share/pnpm/bin/oxlint",
         "arguments": [
           "--lsp"
         ]
@@ -92,7 +106,7 @@
     },
     "oxfmt": {
       "binary": {
-        "path": "/home/carlos/.local/share/fnm/aliases/default/bin/oxfmt",
+        "path": "/home/carlos/.local/share/pnpm/bin/oxfmt",
         "arguments": [
           "--lsp"
         ]
@@ -178,6 +192,17 @@
           }
         }
       ]
+    },
+    "SQL": {
+      "formatter": {
+        "external": {
+          "command": "sql-formatter",
+          "arguments": [
+            "--language",
+            "postgresql"
+          ]
+        }
+      }
     }
   },
 }
