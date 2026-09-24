@@ -1,3 +1,7 @@
+[user]
+  name = Carlos
+  email = carlosaac232001@proton.me
+
 [init]
   defaultBranch = main
 
@@ -23,6 +27,3 @@
   rs = reset --soft HEAD~1
   rts = restore --staged
   rt = restore
-
-[include]
-  path = ~/.gitconfig.local
