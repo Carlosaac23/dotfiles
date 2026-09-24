@@ -3,7 +3,7 @@ theme = GitHub Dark
 
 adjust-cell-height = 2
 font-family = SF Mono
-font-size = 10
+font-size = 10.25
 font-feature = -liga,-calt,-dlig
 cursor-style = bar
 cursor-style-blink = false
