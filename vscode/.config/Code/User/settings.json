@@ -1,5 +1,6 @@
 {
   "oxc.enable": true,
+  "oxc.path.node": "/home/carlos/.local/share/fnm/aliases/default/bin/node",
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
