@@ -177,4 +177,5 @@
   "workbench.sideBar.location": "right",
   "git.confirmSync": false,
   "debug.onTaskErrors": "showErrors",
+  "redhat.telemetry.enabled": false,
 }
